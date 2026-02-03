@@ -7,4 +7,4 @@ app.include_router(logs_router)
 
 @app.get("/health")
 def health_check():
-    return {"status": "changed"}
+    return {"status": "x"}
